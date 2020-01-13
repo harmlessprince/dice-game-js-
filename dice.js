@@ -76,7 +76,7 @@ function resetGame() {
   document.getElementById("name-0").innerHTML =
     '<span >Player 1 &nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i> </span>';
   document.getElementById("name-1").innerHTML =
-    '<span >Player 1 &nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i> </span>';
+    '<span >Player 2 &nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i> </span>';
   document.querySelector(".player-0-panel").classList.remove("active");
   document.querySelector(".player-1-panel").classList.remove("active");
   document.querySelector(".player-0-panel").classList.add("active");
