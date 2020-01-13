@@ -1,0 +1,27 @@
+.player-score{
+    font-size: 90px;
+    color: red;
+}
+
+.current-score{
+    background-color: brown;
+    width: 50%;
+    margin-top: 60px;
+}
+.active{ 
+    color: wheat;
+    font-weight: 600;
+    background-color: rgba(255, 99, 71, 0.849);
+}
+
+.player-name{
+    font-size: 40px;
+}
+#dice-image1{
+    max-width: 50%;
+    /* display: inline-block; */
+}
+
+.dice-div{
+  height: 130px;
+}

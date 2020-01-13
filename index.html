@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/font-awesome/css/1font-awesome.min.css" />
+
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/> -->
+	<title>Section 2: Javascript Language Basics</title>
+</head>
+
+<body>
+	<h1>Section 2: Javascript Language Basics</h1>
+
+	<div class="container">
+		<div class="row mt-5 text-center game">
+
+			<div class="col-md-12 text-center new-game">
+				<br><br>
+				<button id="new-game" type="button" class="btn btn-info">
+					<h4>New Game <i class="fa fa-plus-circle"></i></h4>
+				</button>
+
+			</div>
+			<div class="col-md-4 player-0-panel active">
+				<span class="player-name" id="name-0">Player 1 &nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i> </span>
+				<div class="">
+					<span class="player-score" id="score-0">72</span>
+				</div>
+				<div class="current-score text-white mx-auto">
+					<h5>Current Score</h5>
+					<h1 class="player-current-score" id="current-0">0</h1>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="mt-5 mb-5 dice-div">
+					<img src="dice-1.png" id="dice-image1" alt="dice-1">
+					<!-- <img src="dice-1.png" id="dice-image2" alt="dice-1"> -->
+				</div>
+				<div class="mt-5">
+					<button id="roll-dice" type="button" class="btn btn-warning">
+						<h4 class="text-white"> Roll Dice <i class="fa fa-refresh"></i></h4>
+					</button>
+					<br><br>
+					<button type="button" class="btn btn-success" id="hold-score">
+						<h4>Hold <i class="fa fa-save"></i></h4>
+					</button>
+				</div>
+				<br><br>
+			</div>
+			<div class="col-md-4 player-1-panel">
+				<span class="player-name" id="name-1">Player 2 &nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i> </span>
+				<div class="">
+					<span class="player-score" id="score-1">45</span>
+				</div>
+				<div class="current-score text-white mx-auto">
+					<h5>Current Score</h5>
+					<h1 class="player-current-score" id="current-1">0</h1>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="dice.js"></script>
+</body>
+
+
+</html>
