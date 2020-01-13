@@ -46,7 +46,7 @@ document.querySelector("#hold-score").addEventListener("click", function() {
   document.querySelector("#score-" + activePlayer).textContent =
     scores[activePlayer];
 
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 100) {
     document.querySelector("#name-" + activePlayer).innerHTML =
       '<span >Winner &nbsp;&nbsp;&nbsp;<i class="fa fa-trophy"></i> </span>';
 
